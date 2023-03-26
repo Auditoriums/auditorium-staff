@@ -52,8 +52,10 @@ const Registry = () => {
   };
 
   const handleChangeDate = (e: any) => {
-    setDate(e.target.value);
-  }
+    if (e.target.value) {
+      setDate(e.target.value);
+    }
+  };
 
   return (
     <div>

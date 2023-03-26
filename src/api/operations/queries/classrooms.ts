@@ -55,6 +55,7 @@ export const GET_CLASSROOMS = gql`
         comment
         until
         state
+        warning
       }
       color
       queue {

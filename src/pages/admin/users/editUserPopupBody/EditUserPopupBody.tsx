@@ -187,7 +187,9 @@ const EditUserPopupBody: React.FC<PropTypes> = ({
             type: {set: selectedUserType.value},
             phoneNumber: {set: phoneNumber},
             extraPhoneNumbers: JSON.stringify(extraPhoneNumbers),
-            expireDate: {set: !withDateLimit ? moment(expireDate).toISOString() : undefined},
+            expireDate: {
+              set: !withDateLimit ? moment(expireDate).toISOString() : null
+            },
             department: (
               selectedUserType.value === UserTypes.TEACHER
               || selectedUserType.value === UserTypes.CONCERTMASTER

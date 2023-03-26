@@ -162,6 +162,7 @@ export type DisabledInfo = {
   state: DisabledState;
   comment: string;
   until: Date;
+  warning: boolean;
 };
 
 export type ScheduleUnitType = {

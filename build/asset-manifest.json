@@ -5,13 +5,13 @@
     "main.js.map": "/static/js/main.1cf9f793.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4a4c44c4.js",
     "runtime-main.js.map": "/static/js/runtime-main.4a4c44c4.js.map",
-    "static/js/2.a4c0793d.chunk.js": "/static/js/2.a4c0793d.chunk.js",
-    "static/js/2.a4c0793d.chunk.js.map": "/static/js/2.a4c0793d.chunk.js.map",
+    "static/js/2.d1f9f68d.chunk.js": "/static/js/2.d1f9f68d.chunk.js",
+    "static/js/2.d1f9f68d.chunk.js.map": "/static/js/2.d1f9f68d.chunk.js.map",
     "static/js/3.59b1e845.chunk.js": "/static/js/3.59b1e845.chunk.js",
     "static/js/3.59b1e845.chunk.js.map": "/static/js/3.59b1e845.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.255a519b.chunk.css.map": "/static/css/main.255a519b.chunk.css.map",
-    "static/js/2.a4c0793d.chunk.js.LICENSE.txt": "/static/js/2.a4c0793d.chunk.js.LICENSE.txt",
+    "static/js/2.d1f9f68d.chunk.js.LICENSE.txt": "/static/js/2.d1f9f68d.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Roboto-Thin.c38fab23.ttf",
     "static/media/add.876027ca.svg": "/static/media/add.876027ca.svg",
     "static/media/addLined.6de27fe6.svg": "/static/media/addLined.6de27fe6.svg",
@@ -38,7 +38,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.4a4c44c4.js",
-    "static/js/2.a4c0793d.chunk.js",
+    "static/js/2.d1f9f68d.chunk.js",
     "static/css/main.255a519b.chunk.css",
     "static/js/main.1cf9f793.chunk.js"
   ]

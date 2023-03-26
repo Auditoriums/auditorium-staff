@@ -57,6 +57,10 @@ const CaviarItem: React.FC<PropTypes> = ({classroom, dispatchNotification}) => {
         resStyles.color = '#fff';
       }
     }
+    if (classroom.disabled.warning) {
+      resStyles.background = '#f91354';
+      resStyles.color = '#fff'
+    };
     return resStyles
   };
 
@@ -93,7 +97,7 @@ const CaviarItem: React.FC<PropTypes> = ({classroom, dispatchNotification}) => {
   return (
     <li
       onClick={() => handleClick(classroom)}
-      style={calcStyle(classroom)}
+      style={{...calcStyle(classroom)}}
     >
       {classroom.name}
     </li>

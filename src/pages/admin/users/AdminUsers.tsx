@@ -207,6 +207,7 @@ const AdminUsers = () => {
                   data={data.users
                     .filter((user: User) => (fullName(user).toLowerCase() + user.id).includes(searchValue.toLowerCase()))
                     .filter((user: User) => categoryFilter === 'ALL' ? true : user.type === categoryFilter)
+                    .filter((user: User) => user.nameTemp === null)
                     .filter((user: User) => unverifiedOnly ? user.studentInfo?.accountStatus === StudentAccountStatus.UNVERIFIED : true)
                     .map((item: User) => user(item))}
                   handleItemClick={handleItemClick}

@@ -56,6 +56,7 @@ export const GET_CLASSROOM = gql`
         comment
         until
         state
+        warning
       }
       color
     }

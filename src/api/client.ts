@@ -121,6 +121,7 @@ export const client = new ApolloClient({
     },
   }),
 });
+
 export const isLoggedVar = makeVar(false);
 export const isBlurredVar = makeVar(false);
 export const gridUpdate = makeVar(false);

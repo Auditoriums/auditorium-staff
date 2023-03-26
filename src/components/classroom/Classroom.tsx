@@ -62,7 +62,7 @@ const Classroom: React.FC<PropTypes> = ({classroom, dispatchNotification, index}
         date: moment().toISOString()
       }
     }).then(result => {
-      setScheduleUnits(result.data.schedule);
+     setScheduleUnits(result.data.schedule);
     });
     return () => clearTimeout(timeout.current);
   }, []);
@@ -180,7 +180,11 @@ const Classroom: React.FC<PropTypes> = ({classroom, dispatchNotification, index}
       <li
         key={id}
         className={styles.classroomsListItem}
-        style={{...defineStyle(), opacity: isHidden ? .5 : 1}}
+        style={{
+          ...defineStyle(),
+          opacity: isHidden ? .5 : 1,
+          border: classroom.disabled.warning ? '5px solid #f91354' : 'none'
+        }}
         onClick={handleClick}
         tabIndex={index}
       >
